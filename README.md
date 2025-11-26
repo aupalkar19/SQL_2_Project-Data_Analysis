@@ -22,7 +22,6 @@ This SQL project analyzes customer behavior, revenue generation, and retention p
 	- Added a divide sign  for exchangerate
 
 🖥️ Query: [0_project_view.sql](/Projects/0_project_view.sql)
-``` sql
 
 ``` sql
 --Optimized
@@ -306,7 +305,7 @@ GROUP BY cohort_year, customer_status
 
 ## Technical Details
 - **Database:** PostgreSQL 16
-- **Analysis Tools:** DBeaver, pgAdmin, and VS Code
+- **Analysis Tools:** DBeaver, PGadmin, and VS Code
 - **Visualization:** ChatGPT
 
 ##  Author
