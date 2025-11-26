@@ -21,7 +21,7 @@ This SQL project analyzes customer behavior, revenue generation, and retention p
 	```
 	- Added a divide sign  for exchangerate
 
-🖥️ Query: [0_project_view.sql](/0_project_view.sql)
+🖥️ Query: [0_project_view.sql](/Projects/0_project_view.sql)
 ``` sql
 
 ``` sql
@@ -89,7 +89,7 @@ FROM
 
 - Total and average ltv across these tiers were calculated
 
-🖥️ Query: [1_customer_segmentation.sql](/1_customer_segmentation.sql)
+🖥️ Query: [1_customer_segmentation.sql](/Projects/1_customer_segmentation.sql)
 ``` sql
 WITH customer_ltv AS (
 	SELECT 
@@ -160,7 +160,7 @@ ORDER BY
 - Analyzed customer retention at a cohort level
 
 🖥️ Query: 
-[2_cohort_analysis.sql](/2_cohort_analysis.sql)
+[2_cohort_analysis.sql](/Projects/2_cohort_analysis.sql)
 
 ```sql
 --Customer Revneue by first purchase year
@@ -206,7 +206,7 @@ GROUP BY cohort_year
 	- first_purchase_date < MAX(orderdate) - 6 months
 	- Otherwise, the customer were REALLY NOT active over the past six months peroid
 
-🖥️ Query: [3_retention_analysis.sql](/3_retention_analysis.sql)
+🖥️ Query: [3_retention_analysis.sql](/Projects/3_retention_analysis.sql)
 
 ``` sql
 WITH customer_last_purchase AS (	
